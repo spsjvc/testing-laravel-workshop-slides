@@ -1,0 +1,17 @@
+{
+  "name": "testing-laravel-workshop-slides",
+  "version": "1.0.0",
+  "description": "Slides for my \"Testing Laravel\" workshop at Vivify Ideas.",
+  "scripts": {
+    "start": "mdx-deck slides.mdx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spsjvc/testing-laravel-workshop-slides.git"
+  },
+  "author": "Dragiša Spasojević",
+  "license": "MIT",
+  "devDependencies": {
+    "mdx-deck": "^2.3.2"
+  }
+}
