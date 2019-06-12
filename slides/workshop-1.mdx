@@ -12,11 +12,37 @@ Testing Laravel
 
 Why should you test your code?
 
+<Notes>
+  * What benefits are there?
+  <br />
+  <br />* Is it really worth it?
+</Notes>
+
 ---
 
 <Header>Why should you test your code?</Header>
 
 Testing gives you confidence
+
+<Notes>
+  * They assure that making a change won't break the stuff that previously
+  worked.
+  <br />
+  <br />
+  * If the change does break something, the test will catch it long before you do.
+  <br />
+  <br />
+  * Humans are prone to errors and you can't expect to catch all the bugs
+  manually.
+  <br />
+  <br />
+  * Having tests makes adding new features, fixing bugs and refactoring much easier.
+  <br />
+  <br />* Tests are not some hip new thing, they have been around for quite a while
+  and they are an essential part of the software development process.
+  <br />
+  <br />* Contributing to open source projects.
+</Notes>
 
 ---
 
@@ -24,17 +50,45 @@ Testing gives you confidence
 
 Testing makes you a better developer
 
+<Notes>
+  * Writing tests forces you to slow down and think more about the code and
+  about the possible edge cases.
+  <br />
+  <br />
+  * Having extremely complex tests is usually an indicator that the code being tested
+  can be improved.
+  <br />
+  <br />
+  * You must have heard someone talking about refactoring some code to make it
+  "more testable".
+  <br />
+  <br />
+</Notes>
+
 ---
 
 <Header>Why should you test your code?</Header>
 
 Testing (actually) saves you time
 
+<Notes>
+  * Most common excuses for not testing.
+  <br />
+  <br />
+  ** An example of manual regression testing when the project is already a couple
+  of months into development.
+</Notes>
+
 ---
 
 <Header>Why should you test your code?</Header>
 
 Tests are additional documentation
+
+<Notes>
+  * A new developer coming into the codebase can learn a lot about some feature
+  by looking at its tests.
+</Notes>
 
 ---
 
@@ -46,17 +100,49 @@ Types of tests
 
 Unit tests
 
+<Notes>
+  * With unit tests, you test a small piece of code (a unit) "in isolation",
+  ignoring other parts of the system and only testing that this small unit does
+  its (simple) job perfectly.
+  <br />
+  <br />
+  ** Draw a representation of a unit test on the board.
+</Notes>
+
 ---
 
 <Header>Types of tests</Header>
 
 Integration tests
 
+<Notes>
+  * With integration tests, you test that several of these "units of code" work
+  together in harmony.
+  <br />
+  <br />
+  * Also called "Feature tests".
+  <br />
+  <br />
+  ** Draw a representation of an integration test on the board.
+</Notes>
+
 ---
 
 <Header>Types of tests</Header>
 
 End to End tests
+
+<Notes>
+  * Act as a robot that simulates what a user would do in a particular flow of
+  the application (clicking on buttons, typing in inputs etc.) from start to
+  finish.
+  <br />
+  <br />* Possible in Laravel with Laravel Dusk, but since we mostly use Laravel
+  for developing RESTful JSON APIs, we won't cover that in these workshops.
+  <br />
+  <br />* There are tools like Cypress for End to End testing of JavaScript
+  applications.
+</Notes>
 
 ---
 
