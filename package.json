@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Slides for my \"Testing Laravel\" workshop at Vivify Ideas.",
   "scripts": {
-    "start": "mdx-deck slides.mdx"
+    "start:workshop-1": "mdx-deck ./slides/workshop-1.mdx"
   },
   "repository": {
     "type": "git",
